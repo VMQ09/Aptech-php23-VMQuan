@@ -1,0 +1,27 @@
+#mau-do{
+    color: red;
+}
+#mau-xanh{
+    color: blue;
+}
+#mau-vang{
+    color: yellow;
+}
+.nam-giua{
+    text-align: center;
+}
+.mau-trang{
+    color: white;
+}
+.div-cha{
+    display: flex;
+}
+.div-1{
+    width: 25%;
+    height: 100px;
+    background-color: yellowgreen;
+}
+.div-2{
+    width: 75%;
+    height: 100px;
+}

@@ -1,0 +1,49 @@
+#mau-do{
+    color: red;
+}
+#mau-xanh{
+    color: blue;
+}
+#mau-vang{
+    color: yellow;
+}
+.nam-giua{
+    text-align: center;
+}
+.ben-trai{
+    text-align: left;
+}
+.mau-trang{
+    color: white;
+}
+.header{
+    /* width: 100%; */
+    font-size: 35px;
+    padding: 20px;
+    background-color: gray;
+}
+.div-cha{
+    /* height: 300px; */
+    height: auto;
+    display: flex;
+    background-color: pink;
+}
+.div-2{
+    width: 25%;
+    height: 300px;
+    padding: 20px;
+    background-color: lightgray;
+}
+.div-3{
+    width: 75%;
+    height: 300px;
+    padding: 20px;
+}
+.footer{
+    padding: 10px;
+    background-color: gray;
+}
+.ko-ky-hieu{
+    list-style-type: none;
+    padding: 0;
+}
