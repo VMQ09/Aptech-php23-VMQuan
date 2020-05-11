@@ -1,0 +1,90 @@
+.div1{
+    background-color: orange;
+    display: flex;
+}
+.div11{
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color:blue;
+}
+.div12{
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: blue;
+}
+.div2{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+}
+.div21{
+    width:50%;
+    /* height: 100px; */
+    margin: 10px;
+    padding: 10px;
+    background-color: lightpink;
+    /* display: block; */
+}
+.div211{
+    height: 10px;
+    /* height: 40%; */
+    /* padding: 5px; */
+    margin: 5%;
+    border: 1px solid white;
+    background-color: blue;
+}
+.div212{
+    /* height: 50%; */
+    height: 20px;
+    /* padding: 5px; */
+    margin: 5%;
+    border: 1px solid white;
+    background-color: blue;
+}
+.div22{
+    width: 50%;
+    /* height: 100px; */
+    margin: 10px;
+    padding: 5px;
+    background-color: magenta;
+    display: flex;
+}
+.div221{
+    width: 50%;
+    margin: 0px;
+    border: 1px solid white;
+    background-color: blue;
+}
+.div222{
+    width: 50%;
+    /* margin: 5px; */
+    border: 1px solid white;
+    background-color: blue;
+}
+.div3{
+    background-color: maroon;
+    display:flex;
+    padding: 10px;
+}
+.div31{
+    width: 33%;
+    height: 5px;
+    margin: 10px;
+    background-color: red;
+}
+.div32{
+    width: 33%;
+    height: 5px;
+    margin: 10px;
+    background-color: yellow;
+}
+.div33{
+    width: 33%;
+    height: 5px;
+    margin: 10px;
+    background-color: blue;
+}
