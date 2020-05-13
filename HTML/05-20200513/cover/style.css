@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    color: white;
+}
+.header{
+    height: 30vh;
+    
+    /* background-color: rgb(34, 33, 33); */
+}
+.main{
+    height: 60vh;
+    /* text-align: center;
+    color: white;
+    background-color: rgb(34, 33, 33); */
+}
+.footer{
+    height: 10vh;
+    /* text-align: center;
+    color: white;
+    background-color: rgb(34, 33, 33); */
+}
