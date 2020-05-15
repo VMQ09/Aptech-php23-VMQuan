@@ -3,20 +3,16 @@ body{
     text-align: center;
     color: white;
 }
-.header{
-    height: 30vh;
-    
-    /* background-color: rgb(34, 33, 33); */
-}
-.main{
-    height: 60vh;
-    /* text-align: center;
+.link1 {
     color: white;
-    background-color: rgb(34, 33, 33); */
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+    border-bottom: 4px solid white;
 }
-.footer{
-    height: 10vh;
-    /* text-align: center;
-    color: white;
-    background-color: rgb(34, 33, 33); */
+.link2 {
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5); 
 }
