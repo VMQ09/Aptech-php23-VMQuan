@@ -8,11 +8,12 @@ body{
     display: block;
     padding: 10px;
     font-weight: 700;
-    border-bottom: 4px solid white;
+    /* border-bottom: 4px solid white; */
 }
-.link2 {
-    display: block;
-    padding: 10px;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .5); 
+.link1:hover{
+    /* border-bottom-width: 100%; */
+    border-bottom: 4px solid rgba(255, 255, 255, .5); 
+}
+.active1{
+    border-bottom: 4px solid white;
 }
