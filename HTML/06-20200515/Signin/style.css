@@ -1,0 +1,23 @@
+body {
+  display: block;
+}
+
+.Sign-in {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: lightgray;
+  display: block;
+}
+
+.Logo__Bg-Purple {
+  width: 72px;
+  height: 72px;
+  background-color: purple;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
