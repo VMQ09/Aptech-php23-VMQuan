@@ -1,0 +1,13 @@
+.slide1{
+    background-image: url('1.jpg');
+}
+.slide2{
+    background-image: url('2.jpg');
+}
+.slide3{
+    background-image: url('3.jpg');
+}
+.side1, .slide2, .slide3{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
