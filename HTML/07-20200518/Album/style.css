@@ -1,0 +1,16 @@
+.topmenu{
+    height: 50px;
+    background-color: gray;
+}
+.album{
+    width: auto;
+    height: 400px;
+}
+.thumbnail{
+    height: 50%;
+    background-color: gray;
+}
+.thumbcard{
+    height: 50%;
+    background-color: lightgray;
+}

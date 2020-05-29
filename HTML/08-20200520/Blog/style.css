@@ -1,0 +1,27 @@
+.large{
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+li{
+    list-style: none;
+    text-decoration-color: gray;
+}
+.menu{
+    height: 50px;
+}
+.title{
+    height: auto;
+    background-color: rgb(31, 26, 26);
+}
+h2{
+    font-weight: 400;
+}
+.card{
+    height: 200px;
+    width: 75%;
+}
+.thumbnail{
+    background-color: black;
+    height: 200px;
+    width: 25%;
+}
