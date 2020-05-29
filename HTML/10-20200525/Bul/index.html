@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function OnOff() {
+            var sttbulb = document.getElementById('myImage');
+            // var On = src = 'pic_bulbon.gif';
+            // var Off = src = 'pic_bulboff.gif';
+
+            if (sttbulb.src == 'pic_bulboff.gif') {
+                sttbulb.src = 'pic_bulbon.gif';
+            } else {
+                sttbulb.src = 'pic_bulboff.gif';
+            }
+        }
+
+        function TurnOn() {
+            document.getElementById('myImage').src = 'pic_bulbon.gif';
+        }
+
+        function TurnOff() {
+            document.getElementById('myImage').src = 'pic_bulboff.gif';
+        }
+    </script>
+</head>
+
+<body>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick=OnOff()>On/Off</button>
+    <button onclick=TurnOn()>On</button>
+    <button onclick=TurnOff()>Off</button>
+
+    <!-- <button id="btnon" onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn On</button>
+    <button id="btnoff" onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn Off</button> -->
+
+
+</body>
+
+</html>

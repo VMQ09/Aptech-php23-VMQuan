@@ -25,11 +25,11 @@ var data = {
         }
     ]
 }; 
-console.log(data["users"]);
-console.log(data[Object.keys(data)]);
+// console.log(data["users"]);
+// console.log(data[Object.keys(data)]);
 
-console.log((data[Object.keys(data)])[0]);
-console.log((data["user"])[0]);
+// console.log((data[Object.keys(data)])[0]);
+// console.log((data["user"])[0]);
 
 // console.log(Object.keys(data)); //>users
 // console.log(data[Object.keys(data)]); // 3 bien cua users
@@ -44,16 +44,18 @@ console.log((data["user"])[0]);
 
 // console.log(Object.values(tt[0])[0]);
 // console.log(tt["id"]);
-
+console.log(data.users[0].id);
+console.log(data[Object.keys(data)]);
 var tt = data[Object.keys(data)];
 var dodai_users = (data[Object.keys(data)]).length;// =3, do dai cua mang users
-
+// 
 function them() {
-    var text,text1;
+    var text;
     text = "<tr>";
-    for (var i = 0; i < dodai_users; i++) {
+    for (var i = 0; i < data.users.length; i++) {
         for (var j = 0; j < 6; j++){
-            
+            // console.log(data.user[i].[j]);
+            // text += "<td>" + Object.values(data.user[i]).[j] + "</td>";
             text += "<td>" + Object.values(tt[i])[j] + "</td>";
             // console.log(Object.values(tt[i])[j]);
         }     
@@ -61,8 +63,6 @@ function them() {
     }
     document.getElementById('table-body').innerHTML += text;
 };
-
-
 
 // function taoElement() {
 //     var tableBodyElement = document.getElementById('table-body');
