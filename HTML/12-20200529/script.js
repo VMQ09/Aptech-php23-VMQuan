@@ -8,5 +8,3 @@ function loadDoc() {
     xhttp.open("GET", "data.txt", true);
     xhttp.send();
   }
-
-  loadDoc();
