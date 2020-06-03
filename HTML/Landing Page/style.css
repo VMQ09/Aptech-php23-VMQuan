@@ -1,0 +1,25 @@
+.bgsignup{
+    background-image: url(./sea.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iphone{
+    background-image: url(./iphone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.code{
+    background-image: url(./code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kid{
+    background-image: url(./kid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noidung{
+    width:auto;
+    height: 300px;
+}
